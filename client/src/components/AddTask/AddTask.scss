@@ -1,0 +1,30 @@
+.add-task {
+  margin-bottom: 1rem;
+  .title {
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .row {
+    .input-title {
+      margin-bottom: 0.2rem;
+      color: rgba(0, 0, 0, 0.7);
+    }
+    .button-wrapper {
+      flex-grow: 1;
+      flex-shrink: 0;
+
+
+      @media screen and (max-width: 1400px) {
+        flex-basis: auto;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1rem;
+      }
+    }
+    .priority-section{
+      flex-grow: 1;
+    }
+  }
+}

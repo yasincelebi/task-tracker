@@ -1,0 +1,16 @@
+.input-container {
+  height: 40px;
+  border-radius: 2px;
+  outline: 1px solid rgba(0,0,0,0.3);
+  border: none;
+  select {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: 1px solid rgba(0,0,0,0.3);
+    border-radius: 2px;
+    &:focus {
+      outline: 2px solid rgba(0,0,0,0.6);
+    }
+  }
+}

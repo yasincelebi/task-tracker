@@ -1,0 +1,21 @@
+.titles {
+  .sayac {
+    margin-left: auto;
+    width: min-content;
+    color: rgba(0, 0, 0, 0.54);
+  }
+}
+
+.background-container {
+  min-height: 50px;
+  background: #C1E7FF;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 4px;
+  .group {
+    width: 100%
+  }
+}

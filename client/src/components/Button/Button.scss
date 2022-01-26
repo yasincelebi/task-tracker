@@ -1,0 +1,17 @@
+button {
+  border-radius: 2px !important;
+  outline: none;
+  border: none;
+  min-width: min-content;
+  padding: 5px;
+
+  height: 40px;
+  &.primary {
+    background-color: #206FD1;
+    color: #fff;
+    &:hover {
+      background-color: #206FE1;
+      color: #fff;
+    }
+  }
+}

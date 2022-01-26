@@ -1,0 +1,37 @@
+.approve-modal-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  .content {
+    font-size: 24px;
+  }
+  .buttons {
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    .approve-btn {
+      border-radius: 5px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      min-width: 150px;
+
+      &:nth-child(2) {
+        background-color:#E84676;
+        color: white;
+        font-weight: normal;
+
+
+      }
+      &:nth-child(1) {
+        background-color: #E8E8E8;
+        color: #828282;
+        font-weight: bold;
+
+      }
+    }
+  }
+}
